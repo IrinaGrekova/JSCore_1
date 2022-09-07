@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Roboto;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+body {
+    background-color: #C4C4C4;
+    font-family: Roboto, sans-serif;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.searchForm {
+    display: inline-block;
+    margin: 62px 84px 0 77px;
+    width: 500px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.searchForm-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchForm input {
+    border: none;
+    font-size: 40px;
+    line-height: 48px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.searchForm-content {
+    width: 100%;
+    cursor: pointer;
+    font-size: 26px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    background-color: #E3E3E3;
+}
+
+.searchForm-content:hover {
+    background-color: #b2ebf7;
+    cursor: pointer;
+}
+
+.selected {
+    display: flex;
+    flex-direction: column;
+    top: 326px;
+    width: 500px;
+}
+
+.select {
+    display: flex;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 8px 16px;
+    line-height: 28px;
+    border: 1px solid #000;
+    background-color: #fa9bda;
+}
+
+.btn-close {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-repeat: no-repeat;
+    background-image: url("img/Close.png");
+    background-color: transparent;
+    background-size: contain;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 38px;
+    height: 32px;
+    right: 17px;
+}
+
+
